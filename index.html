@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Your content will go here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to My Portfolio</h1>
+            <p class="lead">I'm Son Nhanh, a passionate web developer!</p>
+            <a href="#projects" class="btn btn-primary btn-lg">See My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <p class="lead">I specialize in web development, creating clean and responsive designs using modern technologies.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">My Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card p-3">
+                        <img src="img/Screenshot 2024-11-23 at 11.21.28 PM.png" class="card-img-top" alt="Project Screenshot">
+                        <div class="card-body">
+                            <h5 class="card-title">My Live Project</h5>
+                            <p class="card-text">A detailed description of the project and what it does.</p>
+                            <a href="https://your-live-demo-url.com" class="btn btn-success" target="_blank">
+                                View Live Demo
+                            </a>
+                            <a href="https://github.com/NHANHKIMSON/Crud-Operation-with-php" class="btn btn-secondary" target="_blank">
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-3">
+                        <img src="img/Screenshot 2024-11-23 at 11.21.28 PM.png" class="card-img-top" alt="Project Screenshot">
+                        <div class="card-body">
+                            <h5 class="card-title">My Live Project</h5>
+                            <p class="card-text">A detailed description of the project and what it does.</p>
+                            <a href="https://your-live-demo-url.com" class="btn btn-success" target="_blank">
+                                View Live Demo
+                            </a>
+                            <a href="https://github.com/NHANHKIMSON/Crud-Operation-with-php" class="btn btn-secondary" target="_blank">
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form action="https://formspree.io/f/your-form-id" method="POST" class="row g-3">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="col-12">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Son Nhanh. All Rights Reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
