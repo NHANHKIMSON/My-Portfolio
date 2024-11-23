@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <!-- Your content will go here -->
@@ -19,6 +20,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -64,94 +67,70 @@
     </div>
 </section>
 
-    <section id="education" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-4">Education</h2>
-            <div class="row">
-                <!-- First Education Entry -->
-                <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">BELTEI International University</h5>
-                            <p class="card-subtitle text-muted">Bachelor's in Software Engineering</p>
-                            <p class="card-text mt-2">
-                                <strong>Year:</strong> 2023 - Present<br>
-                                <strong>Location:</strong> Phnom Penh, Cambodia<br>
-                                Currently in year two, focusing on software development and IT systems.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Additional Education Entry (if any) -->
-                <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Short Course in Web Design & UX/UI Design</h5>
-                            <p class="card-subtitle text-muted">Certificate of Completion in CSTAD, Institute of Science and Technology Advanced Development</p>
-                            <p class="card-text mt-2">
-                                <strong>Academic Year:</strong> 2024 - 2025<br>
-                                <strong>Duration:</strong> 2 months<br>
-                                <strong>Description:</strong> This frontend web development course covers basic and advanced web design concepts, including responsive web design, UI/UX principles, and modern frontend frameworks like Bootstrap, Tailwind CSS, and React. The course also explores CMS, dynamic content, and hosting applications.
-                            </p>
-                            <p class="card-text mt-2">
-                                <strong>Course Highlights:</strong>
-                                <ul>
-                                    <li>Introduction to Web Development</li>
-                                    <li>HTML, CSS, Bootstrap, Tailwind CSS, and React</li>
-                                    <li>UX/UI Design Principles and Tools</li>
-                                    <li>Server Communication, Hosting, and Version Control with Git & GitHub</li>
-                                    <li>Final Project: Responsive Website with UX/UI Enhancements</li>
-                                </ul>
-                            </p>
-                            <p class="card-text mt-2"><strong>Completed:</strong> December 2024</p>
-                        </div>
+
+<section id="education" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Education</h2>
+        <div class="row">
+            <!-- Education Entries -->
+            <div class="col-lg-6 col-md-12 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">BELTEI International University</h5>
+                        <p class="card-subtitle text-muted">Bachelor's in Software Engineering</p>
+                        <p class="card-text mt-2">
+                            <strong>Year:</strong> 2023 - Present<br>
+                            <strong>Location:</strong> Phnom Penh, Cambodia<br>
+                            Currently in year two, focusing on software development and IT systems.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <!-- First Education Entry -->
-                <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Certificate of Completion in Web Development</h5>
-                            <p class="card-subtitle text-muted">ETEC - Education and Technology Education Center</p>
-                            <p class="card-text mt-2">
-                                <strong>Year:</strong> 2024<br>
-                                <strong>Location:</strong> Phnom Penh, Cambodia<br>
-                                Completed a comprehensive web development course that focused on both frontend and backend technologies, preparing for full-stack development roles.
-                            </p>
-                            <p class="card-text mt-2">
-                                <strong>Key Skills Learned:</strong>
-                                <ul>
-                                    <li>HTML, CSS, and Responsive Web Design</li>
-                                    <li>Frontend frameworks like Bootstrap</li>
-                                    <li>JavaScript basics and DOM manipulation</li>
-                                    <li>Backend development with Flask and Python</li>
-                                    <li>Database management with SQL</li>
-                                    <li>Version control with Git & GitHub</li>
-                                    <li>Deployment and Hosting of Web Applications</li>
-                                </ul>
-                            </p>
-                            <p class="card-text mt-2"><strong>Completed:</strong> December 2024</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Additional Education Entry (if any) -->
-                <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Short Course in C/C++ Programming</h5>
-                            <p class="card-subtitle text-muted">Certificate of Completion</p>
-                            <p class="card-text mt-2">
-                                <strong>Year:</strong> 2024<br>
-                                Completed an intensive programming course focused on mastering C and C++ for software development.
-                            </p>
-                        </div>
+            <div class="col-lg-6 col-md-12 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Short Course in Web Design & UX/UI Design</h5>
+                        <p class="card-subtitle text-muted">Certificate of Completion in CSTAD</p>
+                        <p class="card-text mt-2">
+                            <strong>Academic Year:</strong> 2024 - 2025<br>
+                            <strong>Duration:</strong> 2 months<br>
+                            Covered advanced web design concepts, responsive web design, UX/UI principles, and modern frameworks like Bootstrap, Tailwind CSS, and React.
+                        </p>
+                        <p class="card-text mt-2"><strong>Completed:</strong> December 2024</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Certificate of Completion in Web Development</h5>
+                        <p class="card-subtitle text-muted">ETEC - Education and Technology Education Center</p>
+                        <p class="card-text mt-2">
+                            <strong>Year:</strong> 2024<br>
+                            <strong>Location:</strong> Phnom Penh, Cambodia<br>
+                            Focused on frontend and backend technologies, preparing for full-stack development roles.
+                        </p>
+                        <p class="card-text mt-2"><strong>Completed:</strong> December 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Short Course in C/C++ Programming</h5>
+                        <p class="card-subtitle text-muted">Certificate of Completion</p>
+                        <p class="card-text mt-2">
+                            <strong>Year:</strong> 2024<br>
+                            Completed an intensive course focused on mastering C and C++ for software development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <section id="about" class="py-5">
         <div class="container text-center">
@@ -219,8 +198,51 @@
         </div>
     </section>
 
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Son Nhanh. All Rights Reserved.</p>
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <!-- Social Links -->
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <h5>Follow Me</h5>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="mx-2">
+                            <a href="#" class="text-white text-decoration-none">
+                                <i class="bi bi-facebook"></i> Facebook
+                            </a>
+                        </li>
+                        <li class="mx-2">
+                            <a href="#" class="text-white text-decoration-none">
+                                <i class="bi bi-youtube"></i> YouTube
+                            </a>
+                        </li>
+                        <li class="mx-2">
+                            <a href="#" class="text-white text-decoration-none">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                        </li>
+                        <li class="mx-2">
+                            <a href="#" class="text-white text-decoration-none">
+                                <i class="bi bi-linkedin"></i> LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Navigation Links -->
+                <div class="col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#profile" class="text-white text-decoration-none">Profile</a></li>
+                        <li><a href="#education" class="text-white text-decoration-none">Education</a></li>
+                        <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="#projects" class="text-white text-decoration-none">Projects</a></li>
+                        <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Footer Bottom -->
+            <hr class="bg-light">
+            <p class="mb-0">&copy; 2024 Son Nhanh. All Rights Reserved.</p>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
