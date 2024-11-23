@@ -11,3 +11,9 @@ h2 {
     height: 200px;
     object-fit: cover;
 }
+#profile {
+    background-color: #f8f9fa; /* Same as bg-light */
+}
+#profile h2 {
+    color: #343a40; /* Dark text */
+}
